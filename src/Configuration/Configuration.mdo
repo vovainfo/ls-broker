@@ -44,6 +44,7 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.ЛСБрокер</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ВладелецФайловШрифт</styleItems>
@@ -514,6 +515,9 @@
   <commonCommands>CommonCommand.ФайлыВТоме</commonCommands>
   <commandGroups>CommandGroup.Информация</commandGroups>
   <commandGroups>CommandGroup.Органайзер</commandGroups>
+  <commandGroups>CommandGroup.Документы</commandGroups>
+  <commandGroups>CommandGroup.Справочники</commandGroups>
+  <commandGroups>CommandGroup.Регистры</commandGroups>
   <constants>Constant.АдресПубликацииИнформационнойБазыВИнтернете</constants>
   <constants>Constant.АдресПубликацииИнформационнойБазыВЛокальнойСети</constants>
   <constants>Constant.ГлавныйУзел</constants>
@@ -598,12 +602,18 @@
   <catalogs>Catalog.ГруппыПользователей</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовРасширений</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.ПапкиФайлов</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Товары</catalogs>
   <catalogs>Catalog.ТомаХраненияФайлов</catalogs>
   <catalogs>Catalog.УчетныеЗаписиСинхронизацииФайлов</catalogs>
   <catalogs>Catalog.Файлы</catalogs>
   <catalogs>Catalog.ХранилищеДвоичныхДанных</catalogs>
+  <documents>Document.ОтгрузкаТоваров</documents>
+  <documents>Document.ПеремещениеТоваровМеждуСкладами</documents>
+  <documents>Document.ПриемкаТоваров</documents>
   <enums>Enum.ВариантыОчисткиФайлов</enums>
   <enums>Enum.ВариантыСжатияTIFF</enums>
   <enums>Enum.ДействияСФайламиПоДвойномуЩелчку</enums>
@@ -658,6 +668,7 @@
   <informationRegisters>InformationRegister.НастройкиОчисткиФайлов</informationRegisters>
   <informationRegisters>InformationRegister.НастройкиСинхронизацииФайлов</informationRegisters>
   <informationRegisters>InformationRegister.НомераОтсканированныхФайлов</informationRegisters>
+  <informationRegisters>InformationRegister.НумераторГрузовоеМесто</informationRegisters>
   <informationRegisters>InformationRegister.ОбработчикиОбновления</informationRegisters>
   <informationRegisters>InformationRegister.ОбработчикиОбновленияОбщихДанных</informationRegisters>
   <informationRegisters>InformationRegister.ОтправленныеСерверныеОповещения</informationRegisters>
@@ -678,4 +689,6 @@
   <informationRegisters>InformationRegister.ФайлыВРабочемКаталоге</informationRegisters>
   <informationRegisters>InformationRegister.ФиксацияОбработкиДанныхОбработчиками</informationRegisters>
   <informationRegisters>InformationRegister.ХранилищеФайлов</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.Остатки</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Отгрузки</accumulationRegisters>
 </mdclass:Configuration>

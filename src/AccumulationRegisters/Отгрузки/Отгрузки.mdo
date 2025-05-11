@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b296fb9-6330-44d5-9c0d-5d1dbcfb9be4">
+  <producedTypes>
+    <selectionType typeId="d35973d5-1fa2-48ea-992c-8bb3512e6405" valueTypeId="06276a04-8094-4592-8d78-358e2ce0d38c"/>
+    <listType typeId="791824c9-fb8b-48d1-ad95-dc5d697016aa" valueTypeId="33cd5323-e25e-4c69-9430-80389301e92f"/>
+    <managerType typeId="48fe8549-9a6a-404e-9b07-15e11604437f" valueTypeId="6e650ad4-10e3-46ba-a0bc-fcf03ed3074c"/>
+    <recordSetType typeId="0889ad9d-79d8-4ae1-b720-905b06c2998c" valueTypeId="b022005e-3348-4b5c-86f5-fbf92c36920f"/>
+    <recordKeyType typeId="9b9ea378-fa61-4a3c-8c0e-6e620d9dda03" valueTypeId="4a3c3427-1bc7-4f35-bfa4-26f3196c53d5"/>
+    <recordType typeId="b2520e59-b515-46a9-8004-f55bcc436faa" valueTypeId="ff8ae602-2a1f-4f86-8a26-d0a406abe96e"/>
+  </producedTypes>
+  <name>Отгрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отгрузки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="b368ef49-a326-4cd4-b4f5-124bd69c8efe">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="19c60a30-35b2-4640-a10c-4d66e5de990b">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="8bf2a3f8-2aab-462e-a37f-d742bc4ab359">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="4a9672ef-7cd6-4ad7-a3e2-1178fab1c2c7">
+    <name>ГрузовоеМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грузовое место</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>8</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="02e0a68b-792a-4e55-b35e-7609ebb94c98">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Товары</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

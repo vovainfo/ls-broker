@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e70e241-f340-4767-81d9-b85c36460c4a">
+  <producedTypes>
+    <selectionType typeId="8f69c011-3d1a-4623-ab14-3b764fc59ef1" valueTypeId="beae8c41-c911-459d-857a-121616091669"/>
+    <listType typeId="fbdf36e2-b605-49a8-98fc-dd3ffe57d429" valueTypeId="44561d0f-f147-4b75-b719-2e76f582ffef"/>
+    <managerType typeId="99cc8578-a90d-4c43-8d2e-778ac6e4ecb6" valueTypeId="ef19845c-2a60-4888-9899-e53dbd72996b"/>
+    <recordSetType typeId="e6380054-a2e6-48cf-8148-7d89e5c9ae79" valueTypeId="b8badc1b-9419-4562-a406-d3ba4fe5315d"/>
+    <recordKeyType typeId="d976f1ae-01b6-4dd4-a231-f0a137193a25" valueTypeId="2df42b14-2fdf-4ea9-bbe1-7ab6bbd75cba"/>
+    <recordType typeId="f7386867-5862-47ea-bc03-d335146d3673" valueTypeId="e2521a89-bbfc-4761-bea7-2204b02a15cb"/>
+    <recordManagerType typeId="7a48958a-b619-459b-9455-ae8fe31e6ecd" valueTypeId="7ef9bc08-0c10-4910-a8fd-2c60aff52452"/>
+  </producedTypes>
+  <name>НумераторГрузовоеМесто</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нумератор грузовое место</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f08d7f69-1249-43cf-9d8d-fe5d0760d506">
+    <name>Номер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1d319fd8-041f-4f8c-a0b4-ed2b8556d0d1">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
