@@ -19,4 +19,6 @@
   <content>InformationRegister.НумераторГрузовоеМесто</content>
   <content>CommandGroup.Регистры</content>
   <content>AccumulationRegister.Отгрузки</content>
+  <content>Report.ВедомостьПоТоварамНаСкладах</content>
+  <content>Report.ОтгруженныеТовары</content>
 </mdclass:Subsystem>

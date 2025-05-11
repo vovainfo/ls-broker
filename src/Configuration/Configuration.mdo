@@ -638,8 +638,10 @@
   <enums>Enum.ФорматыСохраненияОтчетов</enums>
   <enums>Enum.ФорматыХраненияМногостраничныхФайлов</enums>
   <enums>Enum.ЦветностиИзображения</enums>
+  <reports>Report.ВедомостьПоТоварамНаСкладах</reports>
   <reports>Report.ДлительностьОтложенногоОбновления</reports>
   <reports>Report.ОбъемНенужныхФайлов</reports>
+  <reports>Report.ОтгруженныеТовары</reports>
   <reports>Report.ПользователиПоПодразделениям</reports>
   <reports>Report.ПроверкаЦелостностиТома</reports>
   <reports>Report.ПрогрессОтложенногоОбновления</reports>
